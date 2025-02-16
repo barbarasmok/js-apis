@@ -73,7 +73,7 @@ function crearGrafico(historial, moneda) {
         {
           label: `Valor ${moneda.toUpperCase()} últimos 10 días`,
           data: historial.map(item => item.valor),
-          borderColor: 'rgb(75, 192, 192)',
+          borderColor: '#0dcaf0',
           tension: 0.1,
         },
       ],
